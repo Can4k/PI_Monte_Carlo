@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./stylesheets/visualisation.style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="loading">
+               Загрузка
+            </div>
+
+            <div id="field">
+
+                <canvas></canvas>
+
+
+                <div id="fraction-container">
+                    <span>PI = 4 ×</span>
+                    <span id="fraction">
+                        <span>
+                            <span id="points-in-circle"></span>
+                        </span>
+                    
+                        <span id="divide-line"></span>
+
+                        <span>
+                            <span id="points-total">0</span>
+                        </span>
+                    </span>
+                    <span id="equals">
+                        =
+                        <span id="pi-result">
+                            0
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="scripts/visualisation.app.js"></script>
+</html>

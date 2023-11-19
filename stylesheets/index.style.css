@@ -1,0 +1,60 @@
+html {
+    background-color: black;
+}
+
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-setup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 16px;
+}
+
+#form-setup > section {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+    font-size: 24px;
+}
+
+section > input {
+    margin-top: 8px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 6px;
+    font-size: 18px;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+    padding: 6px 8px;
+    margin-top: 24px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.image-link {
+    width: 32px;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}

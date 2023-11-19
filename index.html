@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./stylesheets/index.style.css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+  </head>
+
+  <body>
+    <div id="form-setup">
+      <section>
+        Количество точек
+        <input id="number-of-points" min="1" type="number" placeholder=">= 1" />
+      </section>
+
+      <section>
+        Сторона квадрата
+        <input id="square-side" min="200" type="number" placeholder=">= 200" />
+      </section>
+
+      <section>
+        Задержка (мс)
+        <input id="delay" min="0" type="number" placeholder=">= 0" />
+      </section>
+
+      <button id="start" value="Начать генерацию" onclick="GeneratePage()">
+        Считать число PI
+      </button>
+
+      <footer>
+        <a target="_blank" href="https://t.me/Can4k">
+          <img class="image-link" src="./assets/Telegram_logo.svg" />
+        </a>
+        <a>
+          <img
+            style="background-color: white"
+            class="image-link"
+            src="./assets/github-mark.png"
+          />
+        </a>
+      </footer>
+    </div>
+  </body>
+
+  <script src="./scripts/index.app.js"></script>
+</html>
